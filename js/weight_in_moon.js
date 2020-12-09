@@ -5,4 +5,4 @@ let weight_int = parseInt (weight);
 
 let weight_moon = (weight_int * (1/6));
 
-alert ("tu peso en la luna es: " + weight_moon + " kg");
+alert (`Tu peso en la luna es: ${weight_moon} kg`);
