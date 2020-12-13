@@ -22,11 +22,12 @@ counter++
 
 //Reverse invertir el orden
 const stringToReverse = "Hola mundo"
-let stringReversed
+let stringReversed = stringToReverse
 for (let i = stringToReverse.length - 1; i >= 0 ; i-- ) {
     stringReversed += stringReversed[i]
 }
 console.log(stringReversed)
+
 
 // 
 
